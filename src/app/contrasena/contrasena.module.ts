@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { ContrasenaPageRoutingModule } from './contrasena-routing.module';
 
-import { HomePage } from './home.page';
+import { ContrasenaPage } from './contrasena.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    ContrasenaPageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [ContrasenaPage]
 })
-export class HomePageModule {}
+export class ContrasenaPageModule {}
